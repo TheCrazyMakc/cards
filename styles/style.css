@@ -257,3 +257,15 @@ button:disabled {
 .theme_dark .content__list li::before {
   background-image: url(../images/marker-dark.svg);
 }
+
+.header__logo-img-dark {
+  display: none;
+}
+
+.theme_dark .header__logo-img-dark {
+  display: inline;
+}
+
+.theme_dark .header__logo-img-light {
+  display: none;
+}
